@@ -1,0 +1,40 @@
+@import '../abstract/variaveis';
+// ESTILIZANDO O BANNER DE INICIO
+
+.banner {
+    min-height: 350px;
+    // para ocupar todo os espaço possivel da página
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-terciaria;
+        height: calc(100% - 51px);
+        opacity: 0.9;
+    
+        h1 {
+            font-size: $tamanho-texto;
+            font-weight: 700;
+            color: $cor-primaria;
+            text-align: center;
+            padding-bottom: .2em;
+        }
+
+        h2 {
+            text-align: center;
+            color: $cor-primaria;
+            // dividindo 3rem (padrão) por dois
+            font-size: $tamanho-texto / 2;
+            font-weight: 100;
+        }
+    }
+    .img__banner {
+        opacity: 0.9;
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+// Podemos utilizar variaveis em escopo, criando variaveis dentro de uma chave de um determinado elemento

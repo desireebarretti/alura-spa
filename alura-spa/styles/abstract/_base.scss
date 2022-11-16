@@ -1,0 +1,7 @@
+// IMPORTANDO AS VARIAVEIS
+@import './variaveis';
+
+html, body {
+    font-family: $fonte;
+    background: $cor-de-back;
+}

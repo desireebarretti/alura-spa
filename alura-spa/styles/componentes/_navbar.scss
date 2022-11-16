@@ -1,0 +1,24 @@
+// IMPORTANDO A PARTIAL DE VARIAVEIS PARA ESTE ARQUIVO 
+@import '../abstract/variaveis'; 
+
+// ESTILIZANDO O MENU DO CABEÇALHO
+nav {
+    text-align: center;
+    background: #F6F6F6;
+    ul {
+        li {
+            display: inline-block;
+            padding: 1rem; 
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $cor-primaria;
+                // USANDO O SELETOR & PARA ANINHAR O HOVER
+                &:hover {
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+            }          
+        }
+    }
+}

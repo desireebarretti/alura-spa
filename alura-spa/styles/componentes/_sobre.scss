@@ -1,0 +1,38 @@
+@import '../abstract/variaveis';
+
+#sobre {
+    border-top: 2px solid $cor-secundaria;
+    background: $cor-de-back;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+
+    .sobre-img {
+        padding-left: 320px;
+    }
+    img {
+        width: 50%;
+        border-radius: 250px;
+        box-shadow: 5px 5px 2.5px $cor-terciaria;
+    }
+    .sobre-spa {
+        color: $cor-de-fonte;
+        line-height: 1.5rem;
+        padding-top: 50px;
+        padding-right: 60px;
+        text-align: center;
+        h3 {
+            letter-spacing: .5em;
+            color: $cor-primaria;
+            margin-bottom: 1rem;
+            font-size: 30px;
+        }
+        h4 {
+            color: $cor-secundaria;
+            letter-spacing: 2px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}

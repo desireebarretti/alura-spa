@@ -1,0 +1,27 @@
+//no sass nao tem @ no import, nao tem aspas e nem ponto e virgula no final
+
+@import '../abstract/variaveis';
+
+@mixin bg-cores($cores){
+    background: linear-gradient(to left, $cores);
+}
+
+footer {
+    text-align: center;
+    font-size: $tamanho-texto / 2;
+    border-top: 2px solid $cor-secundaria;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    color: $cor-de-fonte;
+    background: $cor-terciaria;
+    // mudando o icone do coraçao 
+    i {
+        color: $cor-primaria;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 100;
+        color: $cor-de-fonte;
+        margin-top: 17px;
+    }
+}
